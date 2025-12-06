@@ -1,0 +1,278 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Travelism</title>
+
+    <!--Fonts-->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Hind+Madurai:wght@300;400;500;600;700&family=Roboto+Condensed:wght@300;400;700&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css"
+    />
+
+    <!--Styles-->
+    <link rel="stylesheet" href="./CSS/general.css" />
+    <link rel="stylesheet" href="./CSS/typography.css" />
+    <link rel="stylesheet" href="./CSS/billboard.css" />
+    <link rel="stylesheet" href="./CSS/special-offers.css" />
+  </head>
+  <body>
+    <!--SECTION: billboard-->
+    <section class="billboard">
+      <div class="billboard-shader"></div>
+      <div class="billboard-inner">
+        <header class="header container">
+          <div class="logo">
+            <img src="./Images/logo.svg" alt="Logo" />
+          </div>
+          <nav class="navigation">
+            <ul class="no-style">
+              <li><a href="#" class="nav-link">Home</a></li>
+              <li><a href="#" class="nav-link">Destination</a></li>
+              <li><a href="#" class="nav-link">Activities</a></li>
+              <li><a href="#" class="nav-link">Blog</a></li>
+              <li><a href="#" class="nav-link">About us</a></li>
+              <li><a href="#" class="nav-link">Contact Us</a></li>
+              <li><a href="#" class="nav-link login-link">Log In</a></li>
+              <li><a href="#" class="nav-button">Sing Up</a></li>
+            </ul>
+          </nav>
+        </header>
+
+        <div class="billboard-body">
+          <h1>Discover Your Distination</h1>
+          <p class="text-body">
+            Tellus turpis nunc tempor ut lacinia id integer quam. Hendrerit
+            scelerisque tristique sagittis nisl, mi amet pharetra, mauris, sem.
+            Vestibulum orci nibh libero eget enim placerat.
+          </p>
+          <form class="search-filter">
+            <div class="form-control">
+              <label for="Location">Location</label>
+              <input
+                type="text"
+                id="location"
+                placeholder="Where are you going?"
+              />
+            </div>
+            <div class="form-control">
+              <label for="date">Date</label>
+              <input type="text" id="date" placeholder="When it will stars?" />
+            </div>
+            <div class="form-control">
+              <label for="people">People</label>
+              <input type="text" id="people" placeholder="How many people?" />
+            </div>
+            <button type="submit">
+              <i class="fas fa-search"></i>
+            </button>
+          </form>
+        </div>
+      </div>
+    </section>
+
+    <!--SECTION: special-offers-->
+    <section class="special-offers">
+      <div class="container">
+        <div class="special-offers-header-row">
+          <h2>Special Offers</h2>
+          <div class="special-offers-header-arrows">
+            <button class="button-rounded-arrow">
+              <i class="fas fa-angle-left"></i>
+            </button>
+            <button class="button-rounded-arrow">
+              <i class="fas fa-angle-right"></i>
+            </button>
+          </div>
+        </div>
+        <div class="special-offers-row">
+          <a href="#" class="special-offer">
+            <img src="./Images/bhutan_img.jpg" alt="Special Offer" />
+            <span class="spacial-offer-discount text-body-xs">8% off</span>
+            <div class="special-offer-details">
+              <ul class="no-style">
+                <li>
+                  <span class="special-offer-detail-icon">
+                    <i class="fas fa-calendar-alt"></i>
+                  </span>
+                  <span class="special-offer-detail-description">8 Days</span>
+                </li>
+                <li>
+                  <span class="special-offer-detail-icon">
+                    <i class="fas fa-user"></i>
+                  </span>
+                  <span class="special-offer-detail-description">8+</span>
+                </li>
+                <li>
+                  <span class="special-offer-detail-icon">
+                    <i class="fas fa-map-marker-alt"></i>
+                  </span>
+                  <span class="special-offer-detail-description">Bhutan</span>
+                </li>
+              </ul>
+              <h4>Paro Taktsang</h4>
+            </div>
+            <div class="special-offer-price-row">
+              <div>
+                <span class="spacial-offer-old-price text-body-m">$ 1,250</span>
+                <span class="special-offer-new-price text-body-l">$ 1,050</span>
+                <span class="span-special-offer-per-person text-body-s"
+                  >/person</span
+                >
+              </div>
+              <div class="special-offer-rating">
+                <span class="text-body-m">4.8</span>
+                <i class="fas fa-star"></i>
+              </div>
+            </div>
+          </a>
+          <a href="#" class="special-offer">
+            <img src="./Images/img_nepal.jpg" alt="Special Offer" />
+            <span class="spacial-offer-discount text-body-xs">10% off</span>
+            <div class="special-offer-details">
+              <ul class="no-style">
+                <li>
+                  <span class="special-offer-detail-icon">
+                    <i class="fas fa-calendar-alt"></i>
+                  </span>
+                  <span class="special-offer-detail-description">12 Days</span>
+                </li>
+                <li>
+                  <span class="special-offer-detail-icon">
+                    <i class="fas fa-user"></i>
+                  </span>
+                  <span class="special-offer-detail-description">15+</span>
+                </li>
+                <li>
+                  <span class="special-offer-detail-icon">
+                    <i class="fas fa-map-marker-alt"></i>
+                  </span>
+                  <span class="special-offer-detail-description">Nepal</span>
+                </li>
+              </ul>
+              <h4>Boudhanath Stupa</h4>
+            </div>
+            <div class="special-offer-price-row">
+              <div>
+                <span class="spacial-offer-old-price text-body-m">$ 1,750</span>
+                <span class="special-offer-new-price text-body-l">$ 1,550</span>
+                <span class="span-special-offer-per-person text-body-s"
+                  >/person</span
+                >
+              </div>
+              <div class="special-offer-rating">
+                <span class="text-body-m">4.8</span>
+                <i class="fas fa-star"></i>
+              </div>
+            </div>
+          </a>
+          <a href="#" class="special-offer">
+            <img src="./Images/india_img.jpg" alt="Special Offer" />
+            <span class="spacial-offer-discount text-body-xs">6% off</span>
+            <div class="special-offer-details">
+              <ul class="no-style">
+                <li>
+                  <span class="special-offer-detail-icon">
+                    <i class="fas fa-calendar-alt"></i>
+                  </span>
+                  <span class="special-offer-detail-description">10 Days</span>
+                </li>
+                <li>
+                  <span class="special-offer-detail-icon">
+                    <i class="fas fa-user"></i>
+                  </span>
+                  <span class="special-offer-detail-description">12+</span>
+                </li>
+                <li>
+                  <span class="special-offer-detail-icon">
+                    <i class="fas fa-map-marker-alt"></i>
+                  </span>
+                  <span class="special-offer-detail-description">India</span>
+                </li>
+              </ul>
+              <h4>The Taj Mahal</h4>
+            </div>
+            <div class="special-offer-price-row">
+              <div>
+                <span class="spacial-offer-old-price text-body-m">$ 1,550</span>
+                <span class="special-offer-new-price text-body-l">$ 1,350</span>
+                <span class="span-special-offer-per-person text-body-s"
+                  >/person</span
+                >
+              </div>
+              <div class="special-offer-rating">
+                <span class="text-body-m">4.8</span>
+                <i class="fas fa-star"></i>
+              </div>
+            </div>
+          </a>
+          <a href="#" class="special-offer">
+            <img src="./Images/singapore.jpg" alt="Special Offer" />
+            <span class="spacial-offer-discount text-body-xs">8% off</span>
+            <div class="special-offer-details">
+              <ul class="no-style">
+                <li>
+                  <span class="special-offer-detail-icon">
+                    <i class="fas fa-calendar-alt"></i>
+                  </span>
+                  <span class="special-offer-detail-description">16 Days</span>
+                </li>
+                <li>
+                  <span class="special-offer-detail-icon">
+                    <i class="fas fa-user"></i>
+                  </span>
+                  <span class="special-offer-detail-description">12+</span>
+                </li>
+                <li>
+                  <span class="special-offer-detail-icon">
+                    <i class="fas fa-map-marker-alt"></i>
+                  </span>
+                  <span class="special-offer-detail-description"
+                    >Singapore</span
+                  >
+                </li>
+              </ul>
+              <h4>Marina Bay Sands</h4>
+            </div>
+            <div class="special-offer-price-row">
+              <div>
+                <span class="spacial-offer-old-price text-body-m">$ 2,550</span>
+                <span class="special-offer-new-price text-body-l">$ 2,250</span>
+                <span class="span-special-offer-per-person text-body-s"
+                  >/person</span
+                >
+              </div>
+              <div class="special-offer-rating">
+                <span class="text-body-m">4.8</span>
+                <i class="fas fa-star"></i>
+              </div>
+            </div>
+          </a>
+        </div>
+      </div>
+    </section>
+
+    <!--SECTION: browse-activities-->
+    <section class="browse-activities">browse-activities</section>
+
+    <!--SECTION: subscribe-->
+    <section class="subscribe">subscribe</section>
+
+    <!--SECTION: blog-->
+    <section class="blog">blog</section>
+
+    <!--SECTION: why-us-->
+    <section class="why-us">why-us</section>
+
+    <!--footer-->
+    <footer class="footer">footer</footer>
+  </body>
+</html>

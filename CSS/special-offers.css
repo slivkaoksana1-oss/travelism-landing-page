@@ -1,0 +1,124 @@
+.special-offers {
+    padding: 180px 0;
+}
+
+.special-offers-header-row {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 55px;
+    
+}
+
+.special-offers-header-arrows {
+    display: flex;
+    gap: 15px;
+}
+
+.special-offers-row {
+    display: flex;
+    gap: 30px;
+
+}
+
+.special-offer {
+    flex: 1;
+    border: 1px solid #ededed;
+    border-radius: 20px;
+    position: relative;
+}
+
+.special-offer:hover {
+    box-shadow: 1px 1px 24px rgba(0, 0, 0, 0.08);
+    border-color: transparent;
+}
+
+
+.special-offer img {
+    margin-left: -1px;
+    margin-top: -1px;
+    width: calc(100% + 2px);
+
+
+} 
+
+.special-offer-discount {
+    position: absolute;
+    top: 20px;
+    left: 20px;
+    background-color: #192227;
+    border-radius: 2px;
+    padding: 2px 8px;
+    color: #fff;
+
+}
+
+.special-offer-details {
+    padding: 22px 25px;
+}
+
+.special-offer-details ul {
+    display: flex;
+    gap: 22px;
+    margin-bottom: 13px;
+}
+
+.special-offer-details li {
+  display: flex;
+  gap: 9px;
+  align-items: center;
+  color: #acacac;  
+}
+
+.special-offer-detail-icon {
+    padding: 5px 7px;
+    background-color: #ececec;
+    border-radius: 5px;
+    line-height: 13px;
+}
+
+.special-offer-detail-icon i {
+    font-size: 13px;
+    color: #333333;
+
+}
+
+.special-offer-price-row {
+    border-top: 1px solid #ededed;
+    padding: 16px 25px 17px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-left: -1px;
+    width: calc(100% + 2px);
+}
+
+.specialoffer-old-price {
+    text-decoration: line-through;
+    color: #8a8a8a
+
+}
+
+.special-offer-new-price {
+    color: #333333;
+}
+
+.special-offer-per-person {
+    color: #acacac;
+}
+
+.special-offer-rating {
+    display: flex;
+    align-items: center;
+    gap: 6px;
+
+}
+
+.special-offer-rating span {
+    color: #333333;
+}
+
+.special-offer-rating i {
+    color: #fda700;
+    font-size: 12px;
+}
