@@ -1,6 +1,6 @@
 .billboard {
     height: 977px;
-    background-image: url("../Images/billboard.webp");
+    background-image: url("./Images/billboard.webp");
     position: relative;
 }
 
@@ -74,4 +74,5 @@ nav.navigation ul {
   cursor: pointer;
 
 }
+
 
